@@ -12,15 +12,16 @@
       <!-- particles.js container -->
       <div id="particles-js"></div>
 
+      <div class="aligner">
+        <div class="panel">
+          <button onclick="startRecording(this);" class="btn-circle btn-xl"><i class="material-icons" id="record-button">mic</i></button><!--
+          <button onclick="stopRecording(this);" disabled>stop</button> -->
 
-      <div class="panel">
-        <button onclick="startRecording(this);" class="btn-circle btn-xl"><i class="material-icons" id="record-button">mic</i></button><!--
-        <button onclick="stopRecording(this);" disabled>stop</button> -->
+          <h2>Recordings</h2>
 
-        <h2>Recordings</h2>
-
-        <ul id="recordingslist"></ul>
-        <pre id="log"></pre>
+          <ul id="recordingslist"></ul>
+          <pre id="log"></pre>
+        </div>
       </div>
 
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
