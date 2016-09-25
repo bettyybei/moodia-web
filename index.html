@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Moodia</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+      <!-- particles.js container -->
+      <div id="particles-js"></div>
+
+
+      <div class="panel">
+        <button onclick="startRecording(this);" class="btn-circle btn-xl"><i class="material-icons" id="record-button">mic</i></button><!--
+        <button onclick="stopRecording(this);" disabled>stop</button> -->
+
+        <h2>Recordings</h2>
+
+        <ul id="recordingslist"></ul>
+        <h2>Log</h2>
+        <pre id="log"></pre>
+      </div>
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particle-style.js"></script>
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="recorder.js"></script>
+    <script src="recording.js"></script>
+
+    </body>
+</html>
