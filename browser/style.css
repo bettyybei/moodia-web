@@ -3,14 +3,18 @@
 .panel {
   height: 400px;
   width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -250px;
+  vertical-align: baseline;
   border-radius: 4px;
   z-index: 100;
-  top: 10%;
-  left: 35%;
   display: block;
   background-color: #eee;
-  position: absolute;
   opacity: 0.8;
+
+
 }
 
 ul {
